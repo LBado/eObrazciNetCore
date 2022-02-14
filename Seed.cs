@@ -31,7 +31,7 @@ namespace eObrazci
                                 HisnaStevilka = "10",
                                 PostnaStevilka = 1000,
                                 Kraj = "Ljubljana",
-                                Drzava = "Slovenija"
+                                Drzava = "Slovenia"
                             },
                             Izpit = new List<Izpit>()
                             {
@@ -62,7 +62,7 @@ namespace eObrazci
                                 HisnaStevilka = "6b",
                                 PostnaStevilka = 2000,
                                 Kraj = "Maribor",
-                                Drzava = "Slovenija"
+                                Drzava = "Slovenia"
                             },
                             Izpit = new List<Izpit>()
                             {
