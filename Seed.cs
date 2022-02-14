@@ -84,17 +84,18 @@ namespace eObrazci
                 dataContext.SaveChanges();
             }
 
-            if (!dataContext.Users.Any())
-            {
-                var user = new User()
-                {
-                    Username = "user",
-                    Password = "user"
-                };
+            //treba se registrirat da se dobi hash&salt
+            //if (!dataContext.Users.Any())
+            //{
+            //    var user = new User()
+            //    {
+            //        Username = "user",
+            //        Password = "user"
+            //    };
 
-                dataContext.Users.AddRange(user);
-                dataContext.SaveChanges();
-            }
+            //    dataContext.Users.AddRange(user);
+            //    dataContext.SaveChanges();
+            //}
         }
     }
 }
